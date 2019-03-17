@@ -1,0 +1,23 @@
+{
+  "name": "simplified-des",
+  "version": "1.0.0",
+  "description": "Implementation of simplified DES in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diversen/simplified-des.git"
+  },
+  "keywords": [
+    "DES",
+    "simplified-des"
+  ],
+  "author": "dennis iversen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diversen/simplified-des/issues"
+  },
+  "homepage": "https://github.com/diversen/simplified-des#readme"
+}
