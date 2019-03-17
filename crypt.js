@@ -167,7 +167,7 @@ function decrypt (p, keys) {
     var P1 = IP.slice(0, 4);
     var P2 = IP.slice(4, 8);
 
-    // Run fk with key 0
+    // Run fk with key 1
     var fk1 = fk(P1, P2, keys[1]);
 
     // Swap
@@ -179,7 +179,7 @@ function decrypt (p, keys) {
     SW1 = SW.slice(0, 4);
     SW2 = SW.slice(4, 8);
 
-    // Run fk with key 1
+    // Run fk with key 0
     var fk2 = fk(SW1, SW2, keys[0]);
     
     // Join
@@ -187,7 +187,6 @@ function decrypt (p, keys) {
     var p8I = p8Inverse(RES);
 
     return p8I.join('');
-
 }
 
 var crypt = {
