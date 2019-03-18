@@ -12,6 +12,10 @@ Or in this PDF:
 
 https://sandilands.info/sgordon/teaching/reports/simplified-des-example.pdf
 
+## Example
+
+See [test.js](test.js)
+
 ## Licence
 
 MIT © [Dennis Iversen](https://github.com/diversen)
